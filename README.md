@@ -1,6 +1,6 @@
 # Dataset Descriptions
 
-Despite the fact that extensive list of open datasets are available in catalogues, most of the data publishers still connects their datasets to other popular datasets, such as DBpedia5, Freebase 6 and Geonames7. Although the linkage with popular datasets would allow us to explore external resources, it would fail to cover highly specialized information. Basically, linkage with popular datasets is favoured because of two main reasons: (i) the difficulty in finding related open datasets; and (ii) the strenuous task of discovering instance mappings between di↵erent datasets.
+Despite the fact that extensive list of open datasets are available in catalogues, most of the data publishers still connects their datasets to other popular datasets, such as DBpedia5, Freebase 6 and Geonames7. Although the linkage with popular datasets would allow us to explore external resources, it would fail to cover highly specialized information.
 
 Catalogues of linked data describe the content of datasets in terms of the update periodicity, authors, SPARQL endpoints, linksets with other datasets, amongst others, as recommended by W3C Void Vocabulary. However, catalogues by themselves do not provide any explicit information to help the URI linkage process.
 
