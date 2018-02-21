@@ -11,4 +11,3 @@ The \*.csv files in "cos-j48-jrip" is split into three series, indexed by {1, 2,
 The three series of the files Test<sub>i</sub>.csv, ToBeRankes<sub>i</sub>.csv and relevants<sub>i</sub>.csv are combinations, in a 3-fold cross-validation approach, of the 1113 datasets selected from the Datahub. 
 
 The directory "bayesian-social_network" contains exactly the same data, except that the TF-IDF of the features are replaced with the feature id itself. This files are used to evaluate ranking models based on Bayesian Classifiers and Social Network Analisys, which do n ot use TF-IDF.
-
