@@ -1,3 +1,5 @@
+#Presentation
+
 This repository contains descriptions of Linked Data datasets using VoID vocabulary and prepared data to perform the empirical experiments for evaluating dataset ranking models. The directory "dataset" contains the dataset descriptions, serialized as an nQuad RDF file, and the directory "prepared_test_data" contains test data for experiments, serialized as *.csv files.
 
 The datasets descriptions include Linksets, classes, properties and topic categories. It mashes up data from DataHub, dataset dumps, VoID files and DBpedia. The DBpedia Spotlight allowed the recognition of named entities in literal values and the linking of each RDF Entity with a list of topic categories. Named entities are directly linked to categories through the predicate dcterms:subject and each topic category is subsumed by others through the predicate skos:broader. A category c is a topic category of an RDF entity iff there exists a property path {e dcterms:subject/skos:broader* c.} from a named entity e of the dataset to c in DBpedia.
