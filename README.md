@@ -8,7 +8,7 @@ Files in the "prepared_test_data" directory are organized in two subdirectories.
 
 The \*.csv files in "cos-j48-jrip" is split into three series, indexed by {1, 2, 3}, which contain three types of files: *Test<sub>i</sub>*.csv, *Traning<sub>i</sub>.csv* and *Relevants<sub>i</sub>.csv*. The Test<sub>i</sub>.csv contains target datasets to which the datasets in ToBeRanked<sub>i</sub>.csv should be ranked. The Relevants<sub>i</sub>.csv contains the relevance degree *rel in {0, 1, 2, 3}* of each dataset in ToBeRanked<sub>i</sub>.csv with respect to the target datasets in Test<sub>i</sub>.csv, where the first column is a dataset id of a dataset in Test<sub>i</sub>.csv, the second column is a dataset id of a dataset in ToBeRanked<sub>i</sub>.csv and the third column is the relevance degree rel.
 
-The three series of the set of files Test<sub>i</sub>.csv, ToBeRankes<sub>i</sub>.csv and relevants<sub>i</sub>.csv are combinations, in a 3-fold cross-validation approach, of the 1113 datasets selected from the Datahub. 
+The three series of the files Test<sub>i</sub>.csv, ToBeRankes<sub>i</sub>.csv and relevants<sub>i</sub>.csv are combinations, in a 3-fold cross-validation approach, of the 1113 datasets selected from the Datahub. 
 
-The directory "bayesian-social_network" contains exactly the same data, except that the TF-IDF of the features if replaced with the feature id itself. This files are used to evaluate ranking models on Bayesian Classifiers and Social Network Analisys.
+The directory "bayesian-social_network" contains exactly the same data, except that the TF-IDF of the features are replaced with the feature id itself. This files are used to evaluate ranking models based on Bayesian Classifiers and Social Network Analisys, which do n ot use TF-IDF.
 
